@@ -1,11 +1,11 @@
-package com.example.roomdbtest.database
+package com.example.roomdbtest.data
 
 import android.content.Context
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.room.Room
 import androidx.test.core.app.ApplicationProvider
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import com.example.roomdbtest.tools.getOrAwaitValue
+import com.example.roomdbtest.data.tools.getOrAwaitValue
 import com.google.common.truth.Truth.assertThat
 import kotlinx.coroutines.runBlocking
 import org.junit.After
